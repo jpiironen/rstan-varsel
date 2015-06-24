@@ -1,5 +1,5 @@
 #
-# perform the variable selection using the training data, and measures the
+# perform the variable selection using the training data, and measure the
 # performance of the found models on the test data.
 #
 

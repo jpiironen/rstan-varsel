@@ -15,7 +15,7 @@ x <- data[1:n, 2:(d+1)]
 
 
 # cross-validate the variable searching (10-fold)
-cvk <- 2
+cvk <- 10
 lpd <- matrix(0, cvk, d+1) # lpd for each validation set
 mse <- matrix(0, cvk, d+1) # mse for - '' -
 
