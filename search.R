@@ -26,7 +26,7 @@ e <- extract(fit)
 w <- rbind(e$w0, t(e$w)) # stack the intercept and weights
 sigma2 <- e$sigma^2
 x <- cbind(rep(1,n), x) # add a vector of ones to the predictor matrix
-xt <- cbind(rep(1,ntest), xt) 
+xt <- cbind(rep(1,nt), xt) 
 
 # perform the variable selection
 spath <- lm_fprojsel(w, sigma2, x)
