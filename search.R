@@ -39,7 +39,7 @@ for (k in 1:(d+1)) {
 	# projected parameters
 	submodel <- lm_proj(w, sigma2, x, spath$chosen[1:k])
 	wp <- submodel$w
-	sigma2p <- submodel$sigma2
+	sigma2p <- rep(submodel$sigma2, each=nt)
 		
 	# mean squared error
 	ypred <- rowMeans(xt %*% wp)

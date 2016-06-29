@@ -50,7 +50,7 @@ for (i in 1:cvk) {
 		# projected parameters
 		submodel <- lm_proj(w, sigma2, xtr, spath[[i]]$chosen[1:k])
 		wp <- submodel$w
-		sigma2p <- submodel$sigma2
+		sigma2p <- rep(submodel$sigma2, each=nval)
 		
 		# mean squared error
 		ypred <- rowMeans(xval %*% wp)
