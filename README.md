@@ -1,7 +1,7 @@
 Projection predictive input variable selection using Stan+R
 ===========================================================
 
-This repository contains simple example codes for performing projection predictive variable selection for linear regression models using Stan+R. The method is described in detail in the document. See also our comparative study for performance evaluation of the method (Piironen and Vehtari, 2015).
+This repository contains simple example codes for performing projection predictive variable selection for linear regression models using Stan+R. The method is described in detail in the document. See also our comparative study for performance evaluation of the method (Piironen and Vehtari, 2016).
 
 
 Example
@@ -23,6 +23,6 @@ Both of these will take some time to execute, but you can reduce the running tim
 
 References
 ------------
-Piironen, J. and Vehtari, A. (2015). Comparison of Bayesian predictive methods for model selection. arXiv:1503.08650 ([online][])
+Piironen, J. and Vehtari, A. (2016). Comparison of Bayesian predictive methods for model selection. *Statistics and Computing* ([online][])
 
-  [online]: http://arxiv.org/abs/1503.08650
+  [online]: http://link.springer.com/article/10.1007/s11222-016-9649-y
