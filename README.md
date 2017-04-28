@@ -2,7 +2,7 @@ Projection predictive input variable selection using Stan+R
 ===========================================================
 
 
-<i>Note: the codes in this repository are superseded by the more sophisticated package <b>[glmproj](https://github.com/paasim/glmproj)</b>, which has many more features and is easier to use. </i>
+<i>Note: the codes in this repository are deprecated and superseded by the more sophisticated package <b>[projpred](https://github.com/stan-dev/projpred)</b>, which has many more features and is easier to use. </i>
 
 This repository contains simple example codes for performing projection predictive variable selection for linear regression models using Stan+R. The method is described in detail in the document. See also our comparative study for performance evaluation of the method (Piironen and Vehtari, 2016).
 
