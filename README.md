@@ -29,3 +29,9 @@ References
 Piironen, J. and Vehtari, A. (2016). Comparison of Bayesian predictive methods for model selection. *Statistics and Computing* ([online][])
 
   [online]: http://link.springer.com/article/10.1007/s11222-016-9649-y
+
+
+Licence
+---------
+This software is distributed under the GNU General Public Licence (version 3 or later); please refer to the file licence.txt, included with the software, for details.
+
